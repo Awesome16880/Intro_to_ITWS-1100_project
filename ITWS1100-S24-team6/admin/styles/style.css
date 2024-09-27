@@ -1,0 +1,205 @@
+body {
+    background-color: #d6001c;
+    color: white;
+    margin: 2.5% 5%;
+}
+table {
+    border:3px inset #000000;
+    border-collapse: collapse;
+    width: 100%;
+    height:100%;
+}
+th, tr{
+    border:3px solid #000000;
+}
+img {
+    width:40px;
+    height:40px;
+}
+
+/* a:active {
+
+} */
+.center {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#landingPageBtnContainer {
+    display: flex;
+    justify-content: left;
+}
+#search {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#plusButton {
+    background-color:transparent;
+    padding:0;
+    margin:0;
+    border:transparent;
+}
+
+#topButtons {
+    display:flex;
+}
+#deleteButton {
+    background-color: yellow;
+}
+
+#deleteOptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+#deleteYes {
+    background-color: #AA0000;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+#deleteNo {
+    background-color: lightgray;
+    font-size: 40px;
+    border-radius: 10px;
+}
+#deleteYes:active {
+    transform: scale(0.9);
+    background-color: #660000;
+}
+#deleteNo:active {
+    transform: scale(0.9);
+    background-color: gray;
+}
+#warning-prepend-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#search-preprend-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 11px 0px 0px;
+}
+#search-prepend-container input {
+    border: none;
+}
+#search-prepend-container i {
+    justify-items: center;
+    align-items: center;
+    font-size: 23px;
+}
+.title {
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.found {
+    background-color: #66BB66;
+    border-radius: 10px;
+}
+.found:active {
+    background-color: #008800;
+    transform: scale(0.9);
+}
+.editBtn {
+    background-color: #AFEEEE;
+    border-radius: 10px;
+}
+.editBtn:active {
+    transform: scale(0.9);
+    background-color: #6699EE;
+}
+.deleteBtn {
+    background-color: #FFAAAA;
+    border-radius: 10px;
+}
+.deleteBtn:active{
+    transform: scale(0.9);
+    background-color: #EE2222;
+}
+
+#currentTableButton {
+    background-color: #AFEEEE;
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+}
+#currentTableButton:active {
+    transform: scale(0.9);
+    background-color: #6699EE;
+}
+
+#archiveTable {
+    display: none;
+}
+
+#archiveTableButton {
+    background-color: #DA8EE7;;
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+}
+#archiveTableButton:active {
+    transform: scale(0.9);
+    background-color: #8A00C2;
+}
+#addObject {
+    background-color: #D3FFD3;
+}
+#addObject h1 {
+    color: #55AA55;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#addObject .inputBar:active {
+    transform: scale(0.9);
+}
+#addObject .addSubmitBtn {
+    background-color: #66BB66;
+    border-radius: 10px;
+}
+#addObject .addSubmitBtn:active {
+    background-color: #008800;
+    transform: scale(0.9);
+}
+#addObject .cancelSubmitBtn {
+    background-color: #EE2222;
+    border-radius: 10px;
+}
+#addObject .cancelSubmitBtn:active {
+    background-color: #880000;
+    transform: scale(0.9);
+}
+
+#editObject {
+    width: max(500px, 40%);
+    text-align: left;
+    background-color: #AFEEEE;
+}
+#editObject .editSubmitBtn {
+    background-color: #AAFFAA;
+    border-radius: 10px;
+}
+#editObject .editSubmitBtn:active {
+    background-color: #008800;
+    transform: scale(0.9);
+}
+#landingPageBtn{
+    background-color: orange;
+    border-radius: 10px;
+}
+#landingPageBtn:active {
+    background-color: orangered;
+    transform: scale(0.9);
+}
+
+
+
+/*Remember to put this in readme https://iconscout.com/free-icon/plus-1768091*/
